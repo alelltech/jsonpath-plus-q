@@ -2,7 +2,7 @@ import { JSONPath, JSONPathOptions } from 'jsonpath-plus'
 import * as yaml from 'js-yaml'
 import { xml2js } from 'xml-js';
 
-function fixQuery(query: string){
+export function fixQuery(query: string){
   let p = query;
   if (p.startsWith('.')) p = `$${p}`;
   if (!p.startsWith('$.')) p = `$.${p}`;
