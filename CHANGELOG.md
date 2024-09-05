@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/alelltech/jsonpath-plus-q/compare/v1.0.3...v1.0.4) (2024-09-05)
+
+
+### Others
+
+* **release:** 1.0.3 ([c6ab2fc](https://github.com/alelltech/jsonpath-plus-q/commit/c6ab2fc6d935d09e3ea78cf057736f8da053a972))
+
 ### [1.0.3](https://github.com/alelltech/jsonpath-plus-q/compare/v1.0.2...v1.0.3) (2024-09-05)
 
 

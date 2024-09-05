@@ -1,6 +1,6 @@
 {
   "name": "@alell/jsonpath-plus-q",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Alan S. Ferreira",
   "description": "JSONPath-Plus for multiple formats json, yaml and XML",
   "license": "MIT",
