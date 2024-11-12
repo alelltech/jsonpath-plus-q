@@ -1,6 +1,6 @@
 {
   "name": "@alell/jsonpath-plus-q",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Alan S. Ferreira",
   "description": "JSONPath-Plus for multiple formats json, yaml and XML",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "url": "https://github.com/alelltech/jsonpath-plus-q.git"
   },
   "scripts": {
+    "clean": "git clean -fdX",
     "release": "standard-version -a --releaseCommitMessageFormat \"chore(release): {{currentTag}}\" ",
     "release:full": "npm run release && npm i && git add . && git commit --reuse-message=HEAD && git push --follow-tags",
     "compile": "tsc",
@@ -29,7 +30,7 @@
     "azure-pipelines-task-lib": "*",
     "xml-js": "*",
     "js-yaml": "*",
-    "jsonpath-plus": "*"
+    "jsonpath-plus": "^10.0.7"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
