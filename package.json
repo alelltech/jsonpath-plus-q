@@ -1,6 +1,6 @@
 {
   "name": "@alell/jsonpath-plus-q",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Alan S. Ferreira",
   "description": "JSONPath-Plus for multiple formats json, yaml and XML",
   "license": "MIT",
@@ -27,9 +27,9 @@
     "coverage": "tsc && nyc --reporter=html --reporter=text --reporter=cobertura mocha --reporter mocha-junit-reporter **/_suite.js"
   },
   "peerDependencies": {
-    "azure-pipelines-task-lib": "*",
-    "xml-js": "*",
-    "js-yaml": "*",
+    "azure-pipelines-task-lib": "^4.17.3",
+    "xml-js": "^1.6.11",
+    "js-yaml": "^4.1.0",
     "jsonpath-plus": "^10.0.7"
   },
   "devDependencies": {
@@ -41,7 +41,7 @@
     "mocha-junit-reporter": "2.2.1",
     "nyc": "15.1.0",
     "ts-node": "10.9.2",
-    "typescript": "5.1.6"
+    "typescript": "~4"
   },
   "files": [
     "dist"
